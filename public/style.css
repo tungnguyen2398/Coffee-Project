@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+:root {
+    --white-color: #ffffff;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -18,6 +22,7 @@ body {
 .gray {
     color: #888682;
 }
+
 
 nav {
     background-color: black;
@@ -194,3 +199,12 @@ li {
     cursor: pointer;
 }
 
+.cart--box::before {
+    content: "";
+    border-width: 20px 27px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 4px;
+    top: -29px;
+}

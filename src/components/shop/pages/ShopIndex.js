@@ -1,6 +1,7 @@
 import React from 'react'
 import shopData from '../data/shopData'
 import { Link } from 'react-router-dom'
+import Cart from '../../Cart'
 
 export default function ShopIndex() {
     const drinkfiller = shopData.filter(drink => drink.category === "drink")
@@ -28,7 +29,7 @@ export default function ShopIndex() {
         )
     })
   return (
-    <div>
+    <div className='w-3/4 flex'>
         <div className='ml-32'>
             <p className='text-2xl font-bold mb-12'>Shop</p>
             <div>

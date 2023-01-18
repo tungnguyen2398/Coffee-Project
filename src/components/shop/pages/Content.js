@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import itemData from "../data/itemData";
+import Cart from "../../Cart";
 
 const Content = () => {
-  console.log(itemData);
+  const {cart, setCart} = useContext(Cart)
+  const [cartItem, setCartItem] = useState({})
+  const handleClick = (item) => {
+    setCartItem({...cartItem, item});
+    console.log(cartItem)
+  }
+  
+
+  // console.log(passData)
+
   const hotcoffees = itemData.drink.hotcoffees.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -14,7 +24,7 @@ const Content = () => {
   });
   const hotteas = itemData.drink.hotteas.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -22,7 +32,7 @@ const Content = () => {
   });
   const hotdrinks = itemData.drink.hotdrinks.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -30,7 +40,7 @@ const Content = () => {
   });
   const coldcoffees = itemData.drink.coldcoffees.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -38,7 +48,7 @@ const Content = () => {
   });
   const coldteas = itemData.drink.coldteas.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -46,7 +56,7 @@ const Content = () => {
   });
   const colddrinks = itemData.drink.colddrinks.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -55,7 +65,7 @@ const Content = () => {
 
   const hotbreakfast = itemData.food.hotbreakfast.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -63,7 +73,7 @@ const Content = () => {
   });
   const bakery = itemData.food.bakery.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -71,7 +81,7 @@ const Content = () => {
   });
   const lunch = itemData.food.lunch.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -79,7 +89,7 @@ const Content = () => {
   });
   const snack = itemData.food.snack.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -87,7 +97,7 @@ const Content = () => {
   });
   const yogurt = itemData.food.yogurt.map((item) => {
     return (
-      <div key={item.id}>
+      <div key={item.id} onClick={() => {handleClick(item)}} className="cursor-pointer">
         <img src={item.img} />
         <p>{item.name}</p>
       </div>
@@ -138,13 +148,13 @@ const Content = () => {
 
   const { itemId } = useParams();
   return (
-    <div className="">
+    <div className="w-3/4">
+      <div>
       <div className='ml-32'>
             <p className='text-2xl font-bold mb-12'><Link className="gray" to="/shop">Shop</Link> / {switchItem2()}</p>
-
             <div>
                 <p className='text-2xl font-bold'>{switchItem()}</p>
-                <hr className='w-3/4'/>           
+                <hr className=' w-[750px]'/>           
             </div>
         </div>
       <div className="flex flex-wrap w-3/4 ml-20 text-center">
@@ -177,8 +187,10 @@ const Content = () => {
           }
         })()}
       </div>
+      </div>
+      
     </div>
   );
 };
-
+ 
 export default Content;

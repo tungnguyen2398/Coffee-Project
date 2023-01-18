@@ -1,47 +1,47 @@
 import { nanoid } from "nanoid";
 
 const itemData = {
-  drink: {
-    id: "1",
+  drink: 
+  {
     "hotcoffees": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
@@ -50,25 +50,25 @@ const itemData = {
     id: "2",
     "hotteas": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
@@ -77,25 +77,25 @@ const itemData = {
     id: "3",
     "hotdrinks": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
@@ -104,25 +104,25 @@ const itemData = {
     id: "4",
     "coldcoffees": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
@@ -131,25 +131,25 @@ const itemData = {
     id: "5",
     "coldteas": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/Img-4.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/Img-4.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/Img-4.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/Img-4.png",
         price: "",
@@ -158,28 +158,28 @@ const itemData = {
     id: "6",
     "colddrinks": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
-        id: {nanoid},
+        id: nanoid(),
       },
     ],
   },
@@ -187,25 +187,25 @@ const itemData = {
     id: "7",
     "hotbreakfast": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
@@ -214,25 +214,25 @@ const itemData = {
     id: "8",
     "bakery": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
-        id: {nanoid},
+        id: nanoid(),
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
@@ -241,25 +241,25 @@ const itemData = {
     id: "9",
     "lunch": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
@@ -268,25 +268,25 @@ const itemData = {
     id: "10",
     "snack": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "",
@@ -295,25 +295,25 @@ const itemData = {
     id: "11",
     "yogurt": [
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
       },
       {
-        id: {nanoid},
+        id: nanoid(),
         name: "Mocha",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "",
