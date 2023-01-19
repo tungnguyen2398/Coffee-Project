@@ -1,7 +1,6 @@
 import React from 'react'
 import shopData from '../data/shopData'
 import { Link } from 'react-router-dom'
-import Cart from '../../Cart'
 
 export default function ShopIndex() {
     const drinkfiller = shopData.filter(drink => drink.category === "drink")

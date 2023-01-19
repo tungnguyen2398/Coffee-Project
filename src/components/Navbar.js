@@ -1,7 +1,6 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from 'react-router-dom';
-import Cart from "./Cart";
-import { AiOutlineShoppingCart } from 'react-icons/ai'
+import Basket from "./Basket";
 
 export default function Navbar(){
     return (
@@ -13,14 +12,13 @@ export default function Navbar(){
             </div>
             <ul className="">
                 <li><Link to="/">Home</Link></li>   
-                <li>Menu</li>   
+                <li><Link to="/cart">Menu</Link></li>   
                 <li><Link to="shop">Shop</Link></li>   
                 <li>Contact</li>   
             </ul>
-            <Link to="cart" className="nav--right flex">
-                {/* <Cart className="l-32" />           */}
-                <AiOutlineShoppingCart className="w-[30px] h-[30px]" />
-            </Link>
+            <div className="nav--right flex">
+                <Basket className="l-32" />          
+            </div>
         </nav>
     )
 }
