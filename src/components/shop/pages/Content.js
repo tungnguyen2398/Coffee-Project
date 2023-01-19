@@ -1,18 +1,14 @@
-import React, { useContext, useState } from "react";
+import React, {useContext } from "react";
+import {Cart} from "../../../Context"
 import { Link, useParams } from "react-router-dom";
 import itemData from "../data/itemData";
-import Cart from "../../Cart";
 
 const Content = () => {
   const {cart, setCart} = useContext(Cart)
-  const [cartItem, setCartItem] = useState({})
   const handleClick = (item) => {
-    setCartItem({...cartItem, item});
-    console.log(cartItem)
+    setCart(prevCart => [...prevCart, item]);
   }
   
-
-  // console.log(passData)
 
   const hotcoffees = itemData.drink.hotcoffees.map((item) => {
     return (
@@ -157,7 +153,7 @@ const Content = () => {
                 <hr className=' w-[750px]'/>           
             </div>
         </div>
-      <div className="flex flex-wrap w-3/4 ml-20 text-center">
+      <div className="flex flex-wrap min-w-4/5 ml-20 text-center">
         {(() => {
           switch (itemId) {
             case "1":
