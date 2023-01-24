@@ -22,7 +22,7 @@ export default function ShopLayout() {
       })
 
   return (
-    <div className='pt-10 flex'>
+    <div className=' pt-10 flex'>
       <div className='pl-32 w-[250px]'>
         <div className='text-lg font-bold pb-6'>Drinks</div>
           {drink}

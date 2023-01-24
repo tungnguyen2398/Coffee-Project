@@ -198,13 +198,3 @@ li {
     -webkit-transition: all .3s ease;
     cursor: pointer;
 }
-
-.cart--box::before {
-    content: "";
-    border-width: 20px 27px;
-    border-style: solid;
-    border-color: transparent transparent var(--white-color) transparent;
-    position: absolute;
-    right: 4px;
-    top: -29px;
-}

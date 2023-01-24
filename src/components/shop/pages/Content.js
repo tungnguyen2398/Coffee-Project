@@ -5,7 +5,15 @@ import itemData from "../data/itemData";
 
 const Content = () => {
   const {cart, setCart} = useContext(Cart)
+  
   const handleClick = (item) => {
+    let isPresent = false
+    cart.forEach((product) => {
+      if(item.id === product.id)
+      isPresent = true
+    })
+    if (isPresent)
+    return;
     setCart(prevCart => [...prevCart, item]);
   }
   

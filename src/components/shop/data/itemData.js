@@ -6,42 +6,49 @@ const itemData = {
     "hotcoffees": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Black Coffee",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "2426",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "234",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "625",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Mocha 1",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "123",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Mocha 2",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "363",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Mocha 3",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "3463",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Mocha 4",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "3623",
@@ -51,24 +58,28 @@ const itemData = {
     "hotteas": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Black Tea",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "200",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Yellow Tea",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "200",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Pink Tea",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "200",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Green Tea",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "200",
@@ -78,24 +89,28 @@ const itemData = {
     "hotdrinks": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "White Hot Chocolate",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "300",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Peppermint Hot Chocolate",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "4234",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Peppermint White Hot Chocolate",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "23423",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Toasted White Hot Chocolate",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "234234",
@@ -105,24 +120,28 @@ const itemData = {
     "coldcoffees": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Nitro Cold Brews",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "234234",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Vanilla Nitro Cold Brews",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "1235",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Iced Americano",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "435",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Iced Shaken Espresso",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "23412",
@@ -132,24 +151,28 @@ const itemData = {
     "coldteas": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Iced Black Teas",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/Img-4.png",
         price: "1254425",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Iced Chai Teas",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/Img-4.png",
         price: "54634",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Iced Green Teas",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/Img-4.png",
         price: "12524",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Iced Herbal Teas",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/Img-4.png",
         price: "54674",
@@ -159,24 +182,28 @@ const itemData = {
     "colddrinks": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Dragon Drink®",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "34456",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Mango Dragonfruit ",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "15346",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Mango Dragonfruit Lemonade",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "1436",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Lemonade Starbucks",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price:"2356",
@@ -188,24 +215,28 @@ const itemData = {
     "hotbreakfast": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Bacon",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "23526",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Egg",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "2341",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Sandwich",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "1557",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Ham",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "12543",
@@ -215,24 +246,28 @@ const itemData = {
     "bakery": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Donut",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "1256",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Croissant",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "4563",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Baguette",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price:"5467",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Brioche",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "23465",
@@ -242,24 +277,28 @@ const itemData = {
     "lunch": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Cheese Burger",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "1235",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Egg Roll",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "2346",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Crispy Grilled Cheese on Sourdough",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "1255",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Ham & Swiss on Baguette",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass2-300x300.png",
         price: "",
@@ -269,24 +308,28 @@ const itemData = {
     "snack": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Dipped Madeleines",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "12523",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Gingerbread Biscotti",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "1245",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Madeleines",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "123154",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Vanilla Biscotti with Almonds",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass1-300x300.png",
         price: "12314",
@@ -296,18 +339,21 @@ const itemData = {
     "yogurt": [
       {
         id: nanoid(),
+        quantity: 1,
         name: "Rolled & Steel-Cut Oatmeal",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "5132",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Berry Trio Parfait",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "51231",
       },
       {
         id: nanoid(),
+        quantity: 1,
         name: "Strawberry Overnight Grains",
         img: "https://preview.codeless.co/kafe/default/wp-content/uploads/2022/06/glass3-300x300.png",
         price: "51312",
